@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* About Section */
+.img-about {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.img-about:hover {
+    transform: scale(1.1);
+}
+
+/* Skills Progress Bar */
+.progress-bar {
+    background-color: #fd7e14;
+    transition: width 0.5s ease;
+}
+
+/* Contact Form */
+form input, form textarea {
+    transition: border 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #fd7e14;
+    box-shadow: 0 0 5px rgba(253, 126, 20, 0.5);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
+
+/* Hover Effects */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fd7e14;
+}
+
+/* Cards in Education Section */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
